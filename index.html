@@ -10,17 +10,19 @@
 <body>
   <div class="container">
         <!-- cabeçalho -->
-         <header>
+         
+         <header id="home" class="header">
           <h1>Projeto webSite 2025</h1>
           <p>Um exemplo simples de um webSite COM html e CSS</p> 
          </header>
+        
         <!-- menu de navegação -->
         <nav>
             <ul>
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#product">Produtos</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
         
@@ -66,7 +68,7 @@
                          <button type="button">Compre Já</button>
                       </div> 
             </div>
-             <h3>Seção de Produtos de cabelo</h3>
+             <h3>Seção de eletronicos</h3>
               <div class="FlexSection">
                 <div class="FlexItem">
                     <img src="img/iphone16.webp" alt="">
@@ -127,6 +129,32 @@
                       </div>
             </div>
             </section>
+            <!-- seção de lista de serviços -->
+             <section>
+              <h2>conheça o nossos serviços</h2>
+              <p>Oferecemos soluções completas para o seu projeto</p>
+              <div class="serviceList">
+                <div class="serviceItem">
+                  <h4> desenvolvimento responsivo</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed quia cum tempore, unde eaque, in, iste cupiditate impedit doloribus obcaecati? Numquam molestias voluptatibus consequuntur voluptatem pariatur nisi minus excepturi?
+                    
+                  </p>
+                </div>
+                <div class="serviceItem">
+                  <h4> utilização de metodologias ágeis</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed quia cum tempore, unde eaque, in, iste cupiditate impedit doloribus obcaecati? Numquam molestias voluptatibus consequuntur voluptatem pariatur nisi minus excepturi?
+                    
+                  </p>
+                </div>
+                <div class="serviceItem">
+                  <h4> Melhor custo x beneficio</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed quia cum tempore, unde eaque, in, iste cupiditate impedit doloribus obcaecati? Numquam molestias voluptatibus consequuntur voluptatem pariatur nisi minus excepturi?
+                    
+                  </p>
+                </div>
+              </div>
+              
+             </section>
          
          <!-- seção Sobre -->
           <section id="about" class="contentSection">
@@ -138,8 +166,19 @@
         <section id="contact" class="contentSection">
             <h2>Entre em contato</h2>
             <p>se vc estiver alguma duvida ou quiser saber mais sobre os produtos e serviços,não hesite em entra em contato com a gente, estamos aqui para ajudar!! </p>
-        </section>
- 
+    
+  <p><h2>preencha o formulario de contato </h2></p>
+  <form action=""class="contactForm">
+    <label for="name">Nome:</label>
+    <input type="text"id="name" name="name" required> 
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+    <button type="submit">Enviar Mensagem</button>
+  </form>
+
+ </section>
 
 </main>
         <!-- rodapé -->

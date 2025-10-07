@@ -76,6 +76,37 @@ main.contentSection{
 img{
     max-width: 50%;
 }
+.serviceList{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+.serviceItem{
+background-color: rgb(215, 198, 224);
+border-left: solid 5px rgb(93, 10, 100);
+padding: 15px;
+margin-left: 10px
+;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.contactForm textarea{
+    /* width:; */
+    border: 1px solid white;
+    resize: none;
+    
+}
+.contactForm button{
+    font-weight: bold;
+    align-self: flex-start;
+    margin: auto;
+}
+
 
 footer{
     grid-area: footer;
