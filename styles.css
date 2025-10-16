@@ -1,0 +1,40 @@
+Estilo geral da página
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    /* text-align: center; */
+    color: #333;
+}
+
+/* Estilo da seção de ofertas (grid com flexbox) */
+.secao-ofertas {
+    display: flex;
+    justify-content: center; /* Centraliza os produtos */
+    flex-wrap: wrap;         /* Permite quebrar a linha */
+    gap: 20px;               /* Espaço de 20px entre eles */
+}
+
+/* Estilo de cada "card" de produto */
+.produto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px; /* Espaço entre os cards */
+}
+
+.produto img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.produto .preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27ae60;
+}
